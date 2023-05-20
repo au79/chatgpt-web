@@ -1,6 +1,7 @@
 name: GitHub build pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
