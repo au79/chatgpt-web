@@ -47,7 +47,7 @@ docker compose up -d
 ```
 
 ## Mocked api
-If you don't want to wait for the API to respond, you can use the mocked API instead. To use the mocked API, edit the `.env` file at root of the project ans set the key `VITE_API_BASE=http://localhost:5174` in it. Then, run the `docker compose up -d` command above.
+If you don't want to wait for the API to respond, you can use the mocked API instead. To use the mocked API, edit the `.env` file at root of the project and set the key `VITE_API_BASE=http://localhost:5174` in it. Then, run the `docker compose up -d` command above.
 
 You can customize the mocked API response by sending a message that consists of `d` followed by a number, it will delay the response the the specified number of seconds. You can customize the length of the response by including `l` followed by a number, it will return a response with the specified number of sentences.
 For example, sending the message `d2 l10` will result in a 2 seconds delay and 10 sentences response.
@@ -86,6 +86,7 @@ You can also use ChatGPT-web as a desktop app. To do so, [install Rust first](ht
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Madrawn"><img src="https://avatars.githubusercontent.com/u/1095756?v=4?s=100" width="100px;" alt="Daniel Dengler"/><br /><sub><b>Daniel Dengler</b></sub></a><br /><a href="https://github.com/Niek/chatgpt-web/commits?author=Madrawn" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://ashkanph.github.io"><img src="https://avatars.githubusercontent.com/u/22937754?v=4?s=100" width="100px;" alt="Ashkan"/><br /><sub><b>Ashkan</b></sub></a><br /><a href="https://github.com/Niek/chatgpt-web/commits?author=Ashkanph" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/antopoid"><img src="https://avatars.githubusercontent.com/u/83502336?v=4?s=100" width="100px;" alt="antopoid"/><br /><sub><b>antopoid</b></sub></a><br /><a href="https://github.com/Niek/chatgpt-web/commits?author=antopoid" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MitchBoss"><img src="https://avatars.githubusercontent.com/u/42152605?v=4?s=100" width="100px;" alt="MitchBoss"/><br /><sub><b>MitchBoss</b></sub></a><br /><a href="https://github.com/Niek/chatgpt-web/commits?author=MitchBoss" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
